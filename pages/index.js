@@ -16,7 +16,7 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <script>alert(document.domain)</script>
+        <script>alert("this xss is hosted on a third-party website, but executes in the context of splitbee. Result of document.domain: " + document.domain)</script>
       </Head>
     </Layout>
   );
